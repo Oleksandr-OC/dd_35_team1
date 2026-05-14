@@ -1,16 +1,17 @@
 #include <iostream>
+#include <xmmintrin.h>
+#include <iostream>
+#include <stdlib.h>
+
+using std::cout;
+using std::endl;
+
 
 int main()
 {
 
-    const auto lang = "C++";
-    std::cout << "Hello and welcome to " << lang << "!\n";
-
-    for (int i = 1; i <= 5; i++)
-    {
-        std::cout << "i = " << i << std::endl;
-    }
-
+    cout << "Compile test!" << std::endl;
+    _sleep(5000);
     return 0;
 }
 
