@@ -4,4 +4,8 @@ project(dd_35_team1_)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(dd_35_team1_ main.cpp
+        Library.cpp
+        Library.h
+        Publication.cpp
+        Publication.h
 )
