@@ -6,6 +6,8 @@
 #include "Library.h"
 #include "Publication.h"
 
+#include "Magazine.h"
+#include "Exceptions.h"
 using std::cout;
 using std::endl;
 
@@ -33,5 +35,19 @@ int main()
     TestLib.deletePublication("Python Guide");
     TestLib.showPublications();
 }
+// Тестирование Magazine
+cout << "\n--- Тестирование Magazine ---\n";
+try {
+    Magazine badYear("Наука", "Иванов", -5);
+}
+catch (const EditionYearException& e) {
+    cout << e.Message() << endl;
+}
+Magazine emptyName("", "", 2023);
+cout << emptyName.formDescription() << endl;
+Magazine normal("Космос", "Петров", 2023);
+normal.addArticle("Черные дыры");
+normal.addArticle("Квантовая физика");
+cout << normal.formDescription() << endl;
 
-
+return 0;
