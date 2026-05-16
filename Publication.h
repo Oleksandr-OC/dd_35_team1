@@ -23,15 +23,15 @@ public:
     Publication(string name, string author, int year);
 
     void setName(string name);
-    string getName();
+    string getName() const;
 
     void setAuthor(string author);
-    string getAuthor();
+    string getAuthor() const;
 
     void setYear(int year);
-    int getYear();
+    int getYear() const;
 
-    virtual string formDescription();
+    virtual string formDescription() const;
 };
 
 #endif

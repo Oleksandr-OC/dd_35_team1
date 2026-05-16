@@ -34,20 +34,34 @@ int main()
     TestLib.deletePublication("Pythonbook");
     TestLib.deletePublication("Python Guide");
     TestLib.showPublications();
-}
-// Тестирование Magazine
-cout << "\n--- Тестирование Magazine ---\n";
-try {
-    Magazine badYear("Наука", "Иванов", -5);
-}
-catch (const EditionYearException& e) {
-    cout << e.Message() << endl;
-}
-Magazine emptyName("", "", 2023);
-cout << emptyName.formDescription() << endl;
-Magazine normal("Космос", "Петров", 2023);
-normal.addArticle("Черные дыры");
-normal.addArticle("Квантовая физика");
-cout << normal.formDescription() << endl;
+    // Дополнительные
+    Library TestLib2;
+    TestLib2.setName("BestLib2");
+    Publication ABCbook;
+    Magazine Vogue("Vogue", "FR.blablabla", 2026);
+    TestLib2.addPublication(&ABCbook);
+    TestLib2.addPublication(&Vogue);
+    Vogue.addArticle("Vogue de Francé");
+    Vogue.addArticle("Serg");
+    TestLib2.showPublications();
+    //Работает стабильно
 
-return 0;
+
+
+    // Тестирование Magazine
+    cout << "\n--- Тестирование Magazine ---\n";
+    try {
+        Magazine badYear("Наука", "Иванов", -5);
+    }
+    catch (const EditionYearException& e) {
+        cout << e.Message() << endl;
+    }
+    Magazine emptyName("", "", 2023);
+    cout << emptyName.formDescription() << endl;
+    Magazine normal("Космос", "Петров", 2023);
+    normal.addArticle("Черные дыры");
+    normal.addArticle("Квантовая физика");
+    cout << normal.formDescription() << endl;
+
+    return 0;
+}
