@@ -34,6 +34,19 @@ int main()
     TestLib.deletePublication("Pythonbook");
     TestLib.deletePublication("Python Guide");
     TestLib.showPublications();
+    // Дополнительные
+    Library TestLib2;
+    TestLib2.setName("BestLib2");
+    Publication ABCbook;
+    Magazine Vogue("Vogue", "FR.blablabla", 2026);
+    TestLib2.addPublication(&ABCbook);
+    TestLib2.addPublication(&Vogue);
+    Vogue.addArticle("Vogue de Francé");
+    Vogue.addArticle("Serg");
+    TestLib2.showPublications();
+    //Работает стабильно
+
+
 
     // Тестирование Magazine
     cout << "\n--- Тестирование Magazine ---\n";
