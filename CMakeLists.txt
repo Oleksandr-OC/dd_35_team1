@@ -8,4 +8,6 @@ add_executable(dd_35_team1_ main.cpp
         Library.h
         Publication.cpp
         Publication.h
+        Exception.cpp
+        Exception.h
 )
