@@ -1,0 +1,3257 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/sasha/AppData/Local/Python/bin/"
+      - "C:/Users/sasha/AppData/Roaming/npm/"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/xlc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/xlc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/xlc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang"
+      - "C:/Windows/System32/cc.com"
+      - "C:/Windows/System32/cc.exe"
+      - "C:/Windows/System32/cc"
+      - "C:/Windows/System32/gcc.com"
+      - "C:/Windows/System32/gcc.exe"
+      - "C:/Windows/System32/gcc"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/xlc.com"
+      - "C:/Windows/System32/xlc.exe"
+      - "C:/Windows/System32/xlc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang.com"
+      - "C:/Windows/System32/clang.exe"
+      - "C:/Windows/System32/clang"
+      - "C:/Windows/cc.com"
+      - "C:/Windows/cc.exe"
+      - "C:/Windows/cc"
+      - "C:/Windows/gcc.com"
+      - "C:/Windows/gcc.exe"
+      - "C:/Windows/gcc"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/xlc.com"
+      - "C:/Windows/xlc.exe"
+      - "C:/Windows/xlc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang.com"
+      - "C:/Windows/clang.exe"
+      - "C:/Windows/clang"
+      - "C:/Windows/System32/wbem/cc.com"
+      - "C:/Windows/System32/wbem/cc.exe"
+      - "C:/Windows/System32/wbem/cc"
+      - "C:/Windows/System32/wbem/gcc.com"
+      - "C:/Windows/System32/wbem/gcc.exe"
+      - "C:/Windows/System32/wbem/gcc"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/xlc.com"
+      - "C:/Windows/System32/wbem/xlc.exe"
+      - "C:/Windows/System32/wbem/xlc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang.com"
+      - "C:/Windows/System32/wbem/clang.exe"
+      - "C:/Windows/System32/wbem/clang"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang"
+      - "C:/Windows/System32/OpenSSH/cc.com"
+      - "C:/Windows/System32/OpenSSH/cc.exe"
+      - "C:/Windows/System32/OpenSSH/cc"
+      - "C:/Windows/System32/OpenSSH/gcc.com"
+      - "C:/Windows/System32/OpenSSH/gcc.exe"
+      - "C:/Windows/System32/OpenSSH/gcc"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/xlc.com"
+      - "C:/Windows/System32/OpenSSH/xlc.exe"
+      - "C:/Windows/System32/OpenSSH/xlc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang.com"
+      - "C:/Windows/System32/OpenSSH/clang.exe"
+      - "C:/Windows/System32/OpenSSH/clang"
+      - "C:/Program Files/nodejs/cc.com"
+      - "C:/Program Files/nodejs/cc.exe"
+      - "C:/Program Files/nodejs/cc"
+      - "C:/Program Files/nodejs/gcc.com"
+      - "C:/Program Files/nodejs/gcc.exe"
+      - "C:/Program Files/nodejs/gcc"
+      - "C:/Program Files/nodejs/cl.com"
+      - "C:/Program Files/nodejs/cl.exe"
+      - "C:/Program Files/nodejs/cl"
+      - "C:/Program Files/nodejs/bcc.com"
+      - "C:/Program Files/nodejs/bcc.exe"
+      - "C:/Program Files/nodejs/bcc"
+      - "C:/Program Files/nodejs/xlc.com"
+      - "C:/Program Files/nodejs/xlc.exe"
+      - "C:/Program Files/nodejs/xlc"
+      - "C:/Program Files/nodejs/icx.com"
+      - "C:/Program Files/nodejs/icx.exe"
+      - "C:/Program Files/nodejs/icx"
+      - "C:/Program Files/nodejs/clang.com"
+      - "C:/Program Files/nodejs/clang.exe"
+      - "C:/Program Files/nodejs/clang"
+      - "C:/Program Files/Git/cmd/cc.com"
+      - "C:/Program Files/Git/cmd/cc.exe"
+      - "C:/Program Files/Git/cmd/cc"
+      - "C:/Program Files/Git/cmd/gcc.com"
+      - "C:/Program Files/Git/cmd/gcc.exe"
+      - "C:/Program Files/Git/cmd/gcc"
+      - "C:/Program Files/Git/cmd/cl.com"
+      - "C:/Program Files/Git/cmd/cl.exe"
+      - "C:/Program Files/Git/cmd/cl"
+      - "C:/Program Files/Git/cmd/bcc.com"
+      - "C:/Program Files/Git/cmd/bcc.exe"
+      - "C:/Program Files/Git/cmd/bcc"
+      - "C:/Program Files/Git/cmd/xlc.com"
+      - "C:/Program Files/Git/cmd/xlc.exe"
+      - "C:/Program Files/Git/cmd/xlc"
+      - "C:/Program Files/Git/cmd/icx.com"
+      - "C:/Program Files/Git/cmd/icx.exe"
+      - "C:/Program Files/Git/cmd/icx"
+      - "C:/Program Files/Git/cmd/clang.com"
+      - "C:/Program Files/Git/cmd/clang.exe"
+      - "C:/Program Files/Git/cmd/clang"
+      - "C:/Program Files (x86)/dotnet/cc.com"
+      - "C:/Program Files (x86)/dotnet/cc.exe"
+      - "C:/Program Files (x86)/dotnet/cc"
+      - "C:/Program Files (x86)/dotnet/gcc.com"
+      - "C:/Program Files (x86)/dotnet/gcc.exe"
+      - "C:/Program Files (x86)/dotnet/gcc"
+      - "C:/Program Files (x86)/dotnet/cl.com"
+      - "C:/Program Files (x86)/dotnet/cl.exe"
+      - "C:/Program Files (x86)/dotnet/cl"
+      - "C:/Program Files (x86)/dotnet/bcc.com"
+      - "C:/Program Files (x86)/dotnet/bcc.exe"
+      - "C:/Program Files (x86)/dotnet/bcc"
+      - "C:/Program Files (x86)/dotnet/xlc.com"
+      - "C:/Program Files (x86)/dotnet/xlc.exe"
+      - "C:/Program Files (x86)/dotnet/xlc"
+      - "C:/Program Files (x86)/dotnet/icx.com"
+      - "C:/Program Files (x86)/dotnet/icx.exe"
+      - "C:/Program Files (x86)/dotnet/icx"
+      - "C:/Program Files (x86)/dotnet/clang.com"
+      - "C:/Program Files (x86)/dotnet/clang.exe"
+      - "C:/Program Files (x86)/dotnet/clang"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bcc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bcc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bcc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xlc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xlc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/xlc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/icx.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/icx.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/icx"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/cc.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/cc.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/cc"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/gcc.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/gcc.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/gcc"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/cl.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/cl.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/cl"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/bcc.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/bcc.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/bcc"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/xlc.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/xlc.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/xlc"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/icx.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/icx.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/icx"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/clang.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/clang.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/clang"
+      - "D:/Microsoft VS Code/bin/cc.com"
+      - "D:/Microsoft VS Code/bin/cc.exe"
+      - "D:/Microsoft VS Code/bin/cc"
+      - "D:/Microsoft VS Code/bin/gcc.com"
+      - "D:/Microsoft VS Code/bin/gcc.exe"
+      - "D:/Microsoft VS Code/bin/gcc"
+      - "D:/Microsoft VS Code/bin/cl.com"
+      - "D:/Microsoft VS Code/bin/cl.exe"
+      - "D:/Microsoft VS Code/bin/cl"
+      - "D:/Microsoft VS Code/bin/bcc.com"
+      - "D:/Microsoft VS Code/bin/bcc.exe"
+      - "D:/Microsoft VS Code/bin/bcc"
+      - "D:/Microsoft VS Code/bin/xlc.com"
+      - "D:/Microsoft VS Code/bin/xlc.exe"
+      - "D:/Microsoft VS Code/bin/xlc"
+      - "D:/Microsoft VS Code/bin/icx.com"
+      - "D:/Microsoft VS Code/bin/icx.exe"
+      - "D:/Microsoft VS Code/bin/icx"
+      - "D:/Microsoft VS Code/bin/clang.com"
+      - "D:/Microsoft VS Code/bin/clang.exe"
+      - "D:/Microsoft VS Code/bin/clang"
+      - "C:/Users/sasha/AppData/Local/Python/bin/cc.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/cc.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/cc"
+      - "C:/Users/sasha/AppData/Local/Python/bin/gcc.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/gcc.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/gcc"
+      - "C:/Users/sasha/AppData/Local/Python/bin/cl.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/cl.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/cl"
+      - "C:/Users/sasha/AppData/Local/Python/bin/bcc.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/bcc.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/bcc"
+      - "C:/Users/sasha/AppData/Local/Python/bin/xlc.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/xlc.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/xlc"
+      - "C:/Users/sasha/AppData/Local/Python/bin/icx.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/icx.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/icx"
+      - "C:/Users/sasha/AppData/Local/Python/bin/clang.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/clang.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/clang"
+      - "C:/Users/sasha/AppData/Roaming/npm/cc.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/cc.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/cc"
+      - "C:/Users/sasha/AppData/Roaming/npm/gcc.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/gcc.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/gcc"
+      - "C:/Users/sasha/AppData/Roaming/npm/cl.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/cl.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/cl"
+      - "C:/Users/sasha/AppData/Roaming/npm/bcc.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/bcc.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/bcc"
+      - "C:/Users/sasha/AppData/Roaming/npm/xlc.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/xlc.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/xlc"
+      - "C:/Users/sasha/AppData/Roaming/npm/icx.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/icx.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/icx"
+      - "C:/Users/sasha/AppData/Roaming/npm/clang.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/clang.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/clang"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/cc.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/cc.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/cc"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/gcc.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/gcc.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/gcc"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/cl.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/cl.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/cl"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/bcc.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/bcc.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/bcc"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/xlc.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/xlc.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/xlc"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/icx.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/icx.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/icx"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/clang.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/clang.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/clang"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/sasha/AppData/Local/Python/bin/"
+      - "C:/Users/sasha/AppData/Roaming/npm/"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ar.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ar.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ar"
+      - "C:/Windows/System32/ar.com"
+      - "C:/Windows/System32/ar.exe"
+      - "C:/Windows/System32/ar"
+      - "C:/Windows/ar.com"
+      - "C:/Windows/ar.exe"
+      - "C:/Windows/ar"
+      - "C:/Windows/System32/wbem/ar.com"
+      - "C:/Windows/System32/wbem/ar.exe"
+      - "C:/Windows/System32/wbem/ar"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ar.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ar.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ar"
+      - "C:/Windows/System32/OpenSSH/ar.com"
+      - "C:/Windows/System32/OpenSSH/ar.exe"
+      - "C:/Windows/System32/OpenSSH/ar"
+      - "C:/Program Files/nodejs/ar.com"
+      - "C:/Program Files/nodejs/ar.exe"
+      - "C:/Program Files/nodejs/ar"
+      - "C:/Program Files/Git/cmd/ar.com"
+      - "C:/Program Files/Git/cmd/ar.exe"
+      - "C:/Program Files/Git/cmd/ar"
+      - "C:/Program Files (x86)/dotnet/ar.com"
+      - "C:/Program Files (x86)/dotnet/ar.exe"
+      - "C:/Program Files (x86)/dotnet/ar"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ar.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ar.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ar"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/ar.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/ar.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/ar"
+      - "D:/Microsoft VS Code/bin/ar.com"
+      - "D:/Microsoft VS Code/bin/ar.exe"
+      - "D:/Microsoft VS Code/bin/ar"
+      - "C:/Users/sasha/AppData/Local/Python/bin/ar.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/ar.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/ar"
+      - "C:/Users/sasha/AppData/Roaming/npm/ar.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/ar.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/ar"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/ar.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/ar.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/sasha/AppData/Local/Python/bin/"
+      - "C:/Users/sasha/AppData/Roaming/npm/"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ranlib.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ranlib.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ranlib"
+      - "C:/Windows/System32/ranlib.com"
+      - "C:/Windows/System32/ranlib.exe"
+      - "C:/Windows/System32/ranlib"
+      - "C:/Windows/ranlib.com"
+      - "C:/Windows/ranlib.exe"
+      - "C:/Windows/ranlib"
+      - "C:/Windows/System32/wbem/ranlib.com"
+      - "C:/Windows/System32/wbem/ranlib.exe"
+      - "C:/Windows/System32/wbem/ranlib"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ranlib.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ranlib.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ranlib"
+      - "C:/Windows/System32/OpenSSH/ranlib.com"
+      - "C:/Windows/System32/OpenSSH/ranlib.exe"
+      - "C:/Windows/System32/OpenSSH/ranlib"
+      - "C:/Program Files/nodejs/ranlib.com"
+      - "C:/Program Files/nodejs/ranlib.exe"
+      - "C:/Program Files/nodejs/ranlib"
+      - "C:/Program Files/Git/cmd/ranlib.com"
+      - "C:/Program Files/Git/cmd/ranlib.exe"
+      - "C:/Program Files/Git/cmd/ranlib"
+      - "C:/Program Files (x86)/dotnet/ranlib.com"
+      - "C:/Program Files (x86)/dotnet/ranlib.exe"
+      - "C:/Program Files (x86)/dotnet/ranlib"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ranlib.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ranlib.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ranlib"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/ranlib.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/ranlib.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/ranlib"
+      - "D:/Microsoft VS Code/bin/ranlib.com"
+      - "D:/Microsoft VS Code/bin/ranlib.exe"
+      - "D:/Microsoft VS Code/bin/ranlib"
+      - "C:/Users/sasha/AppData/Local/Python/bin/ranlib.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/ranlib.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/ranlib"
+      - "C:/Users/sasha/AppData/Roaming/npm/ranlib.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/ranlib.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/ranlib"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/ranlib.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/ranlib.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/sasha/AppData/Local/Python/bin/"
+      - "C:/Users/sasha/AppData/Roaming/npm/"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/strip.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/strip.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/strip"
+      - "C:/Windows/System32/strip.com"
+      - "C:/Windows/System32/strip.exe"
+      - "C:/Windows/System32/strip"
+      - "C:/Windows/strip.com"
+      - "C:/Windows/strip.exe"
+      - "C:/Windows/strip"
+      - "C:/Windows/System32/wbem/strip.com"
+      - "C:/Windows/System32/wbem/strip.exe"
+      - "C:/Windows/System32/wbem/strip"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/strip.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/strip.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/strip"
+      - "C:/Windows/System32/OpenSSH/strip.com"
+      - "C:/Windows/System32/OpenSSH/strip.exe"
+      - "C:/Windows/System32/OpenSSH/strip"
+      - "C:/Program Files/nodejs/strip.com"
+      - "C:/Program Files/nodejs/strip.exe"
+      - "C:/Program Files/nodejs/strip"
+      - "C:/Program Files/Git/cmd/strip.com"
+      - "C:/Program Files/Git/cmd/strip.exe"
+      - "C:/Program Files/Git/cmd/strip"
+      - "C:/Program Files (x86)/dotnet/strip.com"
+      - "C:/Program Files (x86)/dotnet/strip.exe"
+      - "C:/Program Files (x86)/dotnet/strip"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/strip.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/strip.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/strip"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/strip.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/strip.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/strip"
+      - "D:/Microsoft VS Code/bin/strip.com"
+      - "D:/Microsoft VS Code/bin/strip.exe"
+      - "D:/Microsoft VS Code/bin/strip"
+      - "C:/Users/sasha/AppData/Local/Python/bin/strip.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/strip.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/strip"
+      - "C:/Users/sasha/AppData/Roaming/npm/strip.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/strip.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/strip"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/strip.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/strip.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/strip"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/sasha/AppData/Local/Python/bin/"
+      - "C:/Users/sasha/AppData/Roaming/npm/"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ld.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ld.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ld"
+      - "C:/Windows/System32/ld.com"
+      - "C:/Windows/System32/ld.exe"
+      - "C:/Windows/System32/ld"
+      - "C:/Windows/ld.com"
+      - "C:/Windows/ld.exe"
+      - "C:/Windows/ld"
+      - "C:/Windows/System32/wbem/ld.com"
+      - "C:/Windows/System32/wbem/ld.exe"
+      - "C:/Windows/System32/wbem/ld"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ld.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ld.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ld"
+      - "C:/Windows/System32/OpenSSH/ld.com"
+      - "C:/Windows/System32/OpenSSH/ld.exe"
+      - "C:/Windows/System32/OpenSSH/ld"
+      - "C:/Program Files/nodejs/ld.com"
+      - "C:/Program Files/nodejs/ld.exe"
+      - "C:/Program Files/nodejs/ld"
+      - "C:/Program Files/Git/cmd/ld.com"
+      - "C:/Program Files/Git/cmd/ld.exe"
+      - "C:/Program Files/Git/cmd/ld"
+      - "C:/Program Files (x86)/dotnet/ld.com"
+      - "C:/Program Files (x86)/dotnet/ld.exe"
+      - "C:/Program Files (x86)/dotnet/ld"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ld.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ld.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ld"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/ld.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/ld.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/ld"
+      - "D:/Microsoft VS Code/bin/ld.com"
+      - "D:/Microsoft VS Code/bin/ld.exe"
+      - "D:/Microsoft VS Code/bin/ld"
+      - "C:/Users/sasha/AppData/Local/Python/bin/ld.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/ld.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/ld"
+      - "C:/Users/sasha/AppData/Roaming/npm/ld.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/ld.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/ld"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/ld.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/ld.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/ld"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/sasha/AppData/Local/Python/bin/"
+      - "C:/Users/sasha/AppData/Roaming/npm/"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/nm.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/nm.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/nm"
+      - "C:/Windows/System32/nm.com"
+      - "C:/Windows/System32/nm.exe"
+      - "C:/Windows/System32/nm"
+      - "C:/Windows/nm.com"
+      - "C:/Windows/nm.exe"
+      - "C:/Windows/nm"
+      - "C:/Windows/System32/wbem/nm.com"
+      - "C:/Windows/System32/wbem/nm.exe"
+      - "C:/Windows/System32/wbem/nm"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nm.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nm.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nm"
+      - "C:/Windows/System32/OpenSSH/nm.com"
+      - "C:/Windows/System32/OpenSSH/nm.exe"
+      - "C:/Windows/System32/OpenSSH/nm"
+      - "C:/Program Files/nodejs/nm.com"
+      - "C:/Program Files/nodejs/nm.exe"
+      - "C:/Program Files/nodejs/nm"
+      - "C:/Program Files/Git/cmd/nm.com"
+      - "C:/Program Files/Git/cmd/nm.exe"
+      - "C:/Program Files/Git/cmd/nm"
+      - "C:/Program Files (x86)/dotnet/nm.com"
+      - "C:/Program Files (x86)/dotnet/nm.exe"
+      - "C:/Program Files (x86)/dotnet/nm"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/nm.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/nm.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/nm"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/nm.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/nm.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/nm"
+      - "D:/Microsoft VS Code/bin/nm.com"
+      - "D:/Microsoft VS Code/bin/nm.exe"
+      - "D:/Microsoft VS Code/bin/nm"
+      - "C:/Users/sasha/AppData/Local/Python/bin/nm.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/nm.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/nm"
+      - "C:/Users/sasha/AppData/Roaming/npm/nm.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/nm.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/nm"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/nm.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/nm.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/nm"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/sasha/AppData/Local/Python/bin/"
+      - "C:/Users/sasha/AppData/Roaming/npm/"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/objdump.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/objdump.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/objdump"
+      - "C:/Windows/System32/objdump.com"
+      - "C:/Windows/System32/objdump.exe"
+      - "C:/Windows/System32/objdump"
+      - "C:/Windows/objdump.com"
+      - "C:/Windows/objdump.exe"
+      - "C:/Windows/objdump"
+      - "C:/Windows/System32/wbem/objdump.com"
+      - "C:/Windows/System32/wbem/objdump.exe"
+      - "C:/Windows/System32/wbem/objdump"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objdump.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objdump.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objdump"
+      - "C:/Windows/System32/OpenSSH/objdump.com"
+      - "C:/Windows/System32/OpenSSH/objdump.exe"
+      - "C:/Windows/System32/OpenSSH/objdump"
+      - "C:/Program Files/nodejs/objdump.com"
+      - "C:/Program Files/nodejs/objdump.exe"
+      - "C:/Program Files/nodejs/objdump"
+      - "C:/Program Files/Git/cmd/objdump.com"
+      - "C:/Program Files/Git/cmd/objdump.exe"
+      - "C:/Program Files/Git/cmd/objdump"
+      - "C:/Program Files (x86)/dotnet/objdump.com"
+      - "C:/Program Files (x86)/dotnet/objdump.exe"
+      - "C:/Program Files (x86)/dotnet/objdump"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/objdump.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/objdump.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/objdump"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/objdump.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/objdump.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/objdump"
+      - "D:/Microsoft VS Code/bin/objdump.com"
+      - "D:/Microsoft VS Code/bin/objdump.exe"
+      - "D:/Microsoft VS Code/bin/objdump"
+      - "C:/Users/sasha/AppData/Local/Python/bin/objdump.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/objdump.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/objdump"
+      - "C:/Users/sasha/AppData/Roaming/npm/objdump.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/objdump.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/objdump"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/objdump.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/objdump.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/objdump"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/sasha/AppData/Local/Python/bin/"
+      - "C:/Users/sasha/AppData/Roaming/npm/"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/objcopy.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/objcopy.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/objcopy"
+      - "C:/Windows/System32/objcopy.com"
+      - "C:/Windows/System32/objcopy.exe"
+      - "C:/Windows/System32/objcopy"
+      - "C:/Windows/objcopy.com"
+      - "C:/Windows/objcopy.exe"
+      - "C:/Windows/objcopy"
+      - "C:/Windows/System32/wbem/objcopy.com"
+      - "C:/Windows/System32/wbem/objcopy.exe"
+      - "C:/Windows/System32/wbem/objcopy"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objcopy.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objcopy.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objcopy"
+      - "C:/Windows/System32/OpenSSH/objcopy.com"
+      - "C:/Windows/System32/OpenSSH/objcopy.exe"
+      - "C:/Windows/System32/OpenSSH/objcopy"
+      - "C:/Program Files/nodejs/objcopy.com"
+      - "C:/Program Files/nodejs/objcopy.exe"
+      - "C:/Program Files/nodejs/objcopy"
+      - "C:/Program Files/Git/cmd/objcopy.com"
+      - "C:/Program Files/Git/cmd/objcopy.exe"
+      - "C:/Program Files/Git/cmd/objcopy"
+      - "C:/Program Files (x86)/dotnet/objcopy.com"
+      - "C:/Program Files (x86)/dotnet/objcopy.exe"
+      - "C:/Program Files (x86)/dotnet/objcopy"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/objcopy.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/objcopy.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/objcopy"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/objcopy.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/objcopy.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/objcopy"
+      - "D:/Microsoft VS Code/bin/objcopy.com"
+      - "D:/Microsoft VS Code/bin/objcopy.exe"
+      - "D:/Microsoft VS Code/bin/objcopy"
+      - "C:/Users/sasha/AppData/Local/Python/bin/objcopy.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/objcopy.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/objcopy"
+      - "C:/Users/sasha/AppData/Roaming/npm/objcopy.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/objcopy.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/objcopy"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/objcopy.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/objcopy.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/sasha/AppData/Local/Python/bin/"
+      - "C:/Users/sasha/AppData/Roaming/npm/"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/readelf.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/readelf.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/readelf"
+      - "C:/Windows/System32/readelf.com"
+      - "C:/Windows/System32/readelf.exe"
+      - "C:/Windows/System32/readelf"
+      - "C:/Windows/readelf.com"
+      - "C:/Windows/readelf.exe"
+      - "C:/Windows/readelf"
+      - "C:/Windows/System32/wbem/readelf.com"
+      - "C:/Windows/System32/wbem/readelf.exe"
+      - "C:/Windows/System32/wbem/readelf"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf"
+      - "C:/Windows/System32/OpenSSH/readelf.com"
+      - "C:/Windows/System32/OpenSSH/readelf.exe"
+      - "C:/Windows/System32/OpenSSH/readelf"
+      - "C:/Program Files/nodejs/readelf.com"
+      - "C:/Program Files/nodejs/readelf.exe"
+      - "C:/Program Files/nodejs/readelf"
+      - "C:/Program Files/Git/cmd/readelf.com"
+      - "C:/Program Files/Git/cmd/readelf.exe"
+      - "C:/Program Files/Git/cmd/readelf"
+      - "C:/Program Files (x86)/dotnet/readelf.com"
+      - "C:/Program Files (x86)/dotnet/readelf.exe"
+      - "C:/Program Files (x86)/dotnet/readelf"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/readelf.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/readelf.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/readelf"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/readelf.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/readelf.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/readelf"
+      - "D:/Microsoft VS Code/bin/readelf.com"
+      - "D:/Microsoft VS Code/bin/readelf.exe"
+      - "D:/Microsoft VS Code/bin/readelf"
+      - "C:/Users/sasha/AppData/Local/Python/bin/readelf.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/readelf.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/readelf"
+      - "C:/Users/sasha/AppData/Roaming/npm/readelf.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/readelf.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/readelf"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/readelf.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/readelf.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/sasha/AppData/Local/Python/bin/"
+      - "C:/Users/sasha/AppData/Roaming/npm/"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/dlltool.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/dlltool.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/dlltool"
+      - "C:/Windows/System32/dlltool.com"
+      - "C:/Windows/System32/dlltool.exe"
+      - "C:/Windows/System32/dlltool"
+      - "C:/Windows/dlltool.com"
+      - "C:/Windows/dlltool.exe"
+      - "C:/Windows/dlltool"
+      - "C:/Windows/System32/wbem/dlltool.com"
+      - "C:/Windows/System32/wbem/dlltool.exe"
+      - "C:/Windows/System32/wbem/dlltool"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dlltool.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dlltool.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dlltool"
+      - "C:/Windows/System32/OpenSSH/dlltool.com"
+      - "C:/Windows/System32/OpenSSH/dlltool.exe"
+      - "C:/Windows/System32/OpenSSH/dlltool"
+      - "C:/Program Files/nodejs/dlltool.com"
+      - "C:/Program Files/nodejs/dlltool.exe"
+      - "C:/Program Files/nodejs/dlltool"
+      - "C:/Program Files/Git/cmd/dlltool.com"
+      - "C:/Program Files/Git/cmd/dlltool.exe"
+      - "C:/Program Files/Git/cmd/dlltool"
+      - "C:/Program Files (x86)/dotnet/dlltool.com"
+      - "C:/Program Files (x86)/dotnet/dlltool.exe"
+      - "C:/Program Files (x86)/dotnet/dlltool"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/dlltool.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/dlltool.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/dlltool"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/dlltool.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/dlltool.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/dlltool"
+      - "D:/Microsoft VS Code/bin/dlltool.com"
+      - "D:/Microsoft VS Code/bin/dlltool.exe"
+      - "D:/Microsoft VS Code/bin/dlltool"
+      - "C:/Users/sasha/AppData/Local/Python/bin/dlltool.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/dlltool.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/dlltool"
+      - "C:/Users/sasha/AppData/Roaming/npm/dlltool.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/dlltool.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/dlltool"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/dlltool.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/dlltool.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/sasha/AppData/Local/Python/bin/"
+      - "C:/Users/sasha/AppData/Roaming/npm/"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/addr2line.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/addr2line.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/addr2line"
+      - "C:/Windows/System32/addr2line.com"
+      - "C:/Windows/System32/addr2line.exe"
+      - "C:/Windows/System32/addr2line"
+      - "C:/Windows/addr2line.com"
+      - "C:/Windows/addr2line.exe"
+      - "C:/Windows/addr2line"
+      - "C:/Windows/System32/wbem/addr2line.com"
+      - "C:/Windows/System32/wbem/addr2line.exe"
+      - "C:/Windows/System32/wbem/addr2line"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/addr2line.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/addr2line.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/addr2line"
+      - "C:/Windows/System32/OpenSSH/addr2line.com"
+      - "C:/Windows/System32/OpenSSH/addr2line.exe"
+      - "C:/Windows/System32/OpenSSH/addr2line"
+      - "C:/Program Files/nodejs/addr2line.com"
+      - "C:/Program Files/nodejs/addr2line.exe"
+      - "C:/Program Files/nodejs/addr2line"
+      - "C:/Program Files/Git/cmd/addr2line.com"
+      - "C:/Program Files/Git/cmd/addr2line.exe"
+      - "C:/Program Files/Git/cmd/addr2line"
+      - "C:/Program Files (x86)/dotnet/addr2line.com"
+      - "C:/Program Files (x86)/dotnet/addr2line.exe"
+      - "C:/Program Files (x86)/dotnet/addr2line"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/addr2line.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/addr2line.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/addr2line"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/addr2line.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/addr2line.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/addr2line"
+      - "D:/Microsoft VS Code/bin/addr2line.com"
+      - "D:/Microsoft VS Code/bin/addr2line.exe"
+      - "D:/Microsoft VS Code/bin/addr2line"
+      - "C:/Users/sasha/AppData/Local/Python/bin/addr2line.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/addr2line.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/addr2line"
+      - "C:/Users/sasha/AppData/Roaming/npm/addr2line.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/addr2line.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/addr2line"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/addr2line.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/addr2line.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/sasha/AppData/Local/Python/bin/"
+      - "C:/Users/sasha/AppData/Roaming/npm/"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files (x86)/dotnet/tapi.com"
+      - "C:/Program Files (x86)/dotnet/tapi.exe"
+      - "C:/Program Files (x86)/dotnet/tapi"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "D:/Microsoft VS Code/bin/tapi.com"
+      - "D:/Microsoft VS Code/bin/tapi.exe"
+      - "D:/Microsoft VS Code/bin/tapi"
+      - "C:/Users/sasha/AppData/Local/Python/bin/tapi.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/tapi.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/tapi"
+      - "C:/Users/sasha/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/tapi"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/tapi.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/tapi.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/sasha/AppData/Local/Python/bin/"
+      - "C:/Users/sasha/AppData/Roaming/npm/"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/c++.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/c++.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/c++"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/g++.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/g++.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/g++"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang++.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang++.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang++"
+      - "C:/Windows/System32/c++.com"
+      - "C:/Windows/System32/c++.exe"
+      - "C:/Windows/System32/c++"
+      - "C:/Windows/System32/g++.com"
+      - "C:/Windows/System32/g++.exe"
+      - "C:/Windows/System32/g++"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang++.com"
+      - "C:/Windows/System32/clang++.exe"
+      - "C:/Windows/System32/clang++"
+      - "C:/Windows/c++.com"
+      - "C:/Windows/c++.exe"
+      - "C:/Windows/c++"
+      - "C:/Windows/g++.com"
+      - "C:/Windows/g++.exe"
+      - "C:/Windows/g++"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang++.com"
+      - "C:/Windows/clang++.exe"
+      - "C:/Windows/clang++"
+      - "C:/Windows/System32/wbem/c++.com"
+      - "C:/Windows/System32/wbem/c++.exe"
+      - "C:/Windows/System32/wbem/c++"
+      - "C:/Windows/System32/wbem/g++.com"
+      - "C:/Windows/System32/wbem/g++.exe"
+      - "C:/Windows/System32/wbem/g++"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang++.com"
+      - "C:/Windows/System32/wbem/clang++.exe"
+      - "C:/Windows/System32/wbem/clang++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/g++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/g++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/g++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++"
+      - "C:/Windows/System32/OpenSSH/c++.com"
+      - "C:/Windows/System32/OpenSSH/c++.exe"
+      - "C:/Windows/System32/OpenSSH/c++"
+      - "C:/Windows/System32/OpenSSH/g++.com"
+      - "C:/Windows/System32/OpenSSH/g++.exe"
+      - "C:/Windows/System32/OpenSSH/g++"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang++.com"
+      - "C:/Windows/System32/OpenSSH/clang++.exe"
+      - "C:/Windows/System32/OpenSSH/clang++"
+      - "C:/Program Files/nodejs/c++.com"
+      - "C:/Program Files/nodejs/c++.exe"
+      - "C:/Program Files/nodejs/c++"
+      - "C:/Program Files/nodejs/g++.com"
+      - "C:/Program Files/nodejs/g++.exe"
+      - "C:/Program Files/nodejs/g++"
+      - "C:/Program Files/nodejs/cl.com"
+      - "C:/Program Files/nodejs/cl.exe"
+      - "C:/Program Files/nodejs/cl"
+      - "C:/Program Files/nodejs/bcc.com"
+      - "C:/Program Files/nodejs/bcc.exe"
+      - "C:/Program Files/nodejs/bcc"
+      - "C:/Program Files/nodejs/icx.com"
+      - "C:/Program Files/nodejs/icx.exe"
+      - "C:/Program Files/nodejs/icx"
+      - "C:/Program Files/nodejs/clang++.com"
+      - "C:/Program Files/nodejs/clang++.exe"
+      - "C:/Program Files/nodejs/clang++"
+      - "C:/Program Files/Git/cmd/c++.com"
+      - "C:/Program Files/Git/cmd/c++.exe"
+      - "C:/Program Files/Git/cmd/c++"
+      - "C:/Program Files/Git/cmd/g++.com"
+      - "C:/Program Files/Git/cmd/g++.exe"
+      - "C:/Program Files/Git/cmd/g++"
+      - "C:/Program Files/Git/cmd/cl.com"
+      - "C:/Program Files/Git/cmd/cl.exe"
+      - "C:/Program Files/Git/cmd/cl"
+      - "C:/Program Files/Git/cmd/bcc.com"
+      - "C:/Program Files/Git/cmd/bcc.exe"
+      - "C:/Program Files/Git/cmd/bcc"
+      - "C:/Program Files/Git/cmd/icx.com"
+      - "C:/Program Files/Git/cmd/icx.exe"
+      - "C:/Program Files/Git/cmd/icx"
+      - "C:/Program Files/Git/cmd/clang++.com"
+      - "C:/Program Files/Git/cmd/clang++.exe"
+      - "C:/Program Files/Git/cmd/clang++"
+      - "C:/Program Files (x86)/dotnet/c++.com"
+      - "C:/Program Files (x86)/dotnet/c++.exe"
+      - "C:/Program Files (x86)/dotnet/c++"
+      - "C:/Program Files (x86)/dotnet/g++.com"
+      - "C:/Program Files (x86)/dotnet/g++.exe"
+      - "C:/Program Files (x86)/dotnet/g++"
+      - "C:/Program Files (x86)/dotnet/cl.com"
+      - "C:/Program Files (x86)/dotnet/cl.exe"
+      - "C:/Program Files (x86)/dotnet/cl"
+      - "C:/Program Files (x86)/dotnet/bcc.com"
+      - "C:/Program Files (x86)/dotnet/bcc.exe"
+      - "C:/Program Files (x86)/dotnet/bcc"
+      - "C:/Program Files (x86)/dotnet/icx.com"
+      - "C:/Program Files (x86)/dotnet/icx.exe"
+      - "C:/Program Files (x86)/dotnet/icx"
+      - "C:/Program Files (x86)/dotnet/clang++.com"
+      - "C:/Program Files (x86)/dotnet/clang++.exe"
+      - "C:/Program Files (x86)/dotnet/clang++"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/c++.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/c++.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/c++"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/g++.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/g++.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/g++"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bcc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bcc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bcc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/icx.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/icx.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/icx"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang++.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang++.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang++"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/c++.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/c++.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/c++"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/g++.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/g++.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/g++"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/cl.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/cl.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/cl"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/bcc.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/bcc.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/bcc"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/icx.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/icx.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/icx"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/clang++.com"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/clang++.exe"
+      - "C:/Users/sasha/AppData/Local/Microsoft/WindowsApps/clang++"
+      - "D:/Microsoft VS Code/bin/c++.com"
+      - "D:/Microsoft VS Code/bin/c++.exe"
+      - "D:/Microsoft VS Code/bin/c++"
+      - "D:/Microsoft VS Code/bin/g++.com"
+      - "D:/Microsoft VS Code/bin/g++.exe"
+      - "D:/Microsoft VS Code/bin/g++"
+      - "D:/Microsoft VS Code/bin/cl.com"
+      - "D:/Microsoft VS Code/bin/cl.exe"
+      - "D:/Microsoft VS Code/bin/cl"
+      - "D:/Microsoft VS Code/bin/bcc.com"
+      - "D:/Microsoft VS Code/bin/bcc.exe"
+      - "D:/Microsoft VS Code/bin/bcc"
+      - "D:/Microsoft VS Code/bin/icx.com"
+      - "D:/Microsoft VS Code/bin/icx.exe"
+      - "D:/Microsoft VS Code/bin/icx"
+      - "D:/Microsoft VS Code/bin/clang++.com"
+      - "D:/Microsoft VS Code/bin/clang++.exe"
+      - "D:/Microsoft VS Code/bin/clang++"
+      - "C:/Users/sasha/AppData/Local/Python/bin/c++.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/c++.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/c++"
+      - "C:/Users/sasha/AppData/Local/Python/bin/g++.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/g++.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/g++"
+      - "C:/Users/sasha/AppData/Local/Python/bin/cl.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/cl.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/cl"
+      - "C:/Users/sasha/AppData/Local/Python/bin/bcc.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/bcc.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/bcc"
+      - "C:/Users/sasha/AppData/Local/Python/bin/icx.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/icx.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/icx"
+      - "C:/Users/sasha/AppData/Local/Python/bin/clang++.com"
+      - "C:/Users/sasha/AppData/Local/Python/bin/clang++.exe"
+      - "C:/Users/sasha/AppData/Local/Python/bin/clang++"
+      - "C:/Users/sasha/AppData/Roaming/npm/c++.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/c++.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/c++"
+      - "C:/Users/sasha/AppData/Roaming/npm/g++.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/g++.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/g++"
+      - "C:/Users/sasha/AppData/Roaming/npm/cl.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/cl.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/cl"
+      - "C:/Users/sasha/AppData/Roaming/npm/bcc.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/bcc.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/bcc"
+      - "C:/Users/sasha/AppData/Roaming/npm/icx.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/icx.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/icx"
+      - "C:/Users/sasha/AppData/Roaming/npm/clang++.com"
+      - "C:/Users/sasha/AppData/Roaming/npm/clang++.exe"
+      - "C:/Users/sasha/AppData/Roaming/npm/clang++"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/c++.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/c++.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/c++"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/g++.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/g++.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/g++"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/cl.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/cl.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/cl"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/bcc.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/bcc.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/bcc"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/icx.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/icx.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/icx"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/clang++.com"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/clang++.exe"
+      - "D:/Vs/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/clang++"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\sasha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\sasha\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\sasha\\AppData\\Roaming\\npm"
+        - "D:\\Vs\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sasha/source/repos/dd_35_team11/out/install/x64-Debug"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+...

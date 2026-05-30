@@ -32,6 +32,15 @@ int main()
     TestLib.deletePublication("Pythonbook");
     TestLib.deletePublication("Python Guide");
     TestLib.showPublications();
+
+    Book book(
+        "The Hobbit",
+        "J. R. R. Tolkien",
+        1937,
+        "A fantasy novel about the journey of Bilbo Baggins."
+    );
+
+    cout << book.formDescription() << endl;
 }
 
 
